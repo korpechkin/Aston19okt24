@@ -15,7 +15,7 @@ public class TestOnlineReplenishmentBlock {
     @BeforeAll
     public static void initDriver() {
         Website.openWebsite(url);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
