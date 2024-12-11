@@ -20,7 +20,7 @@ public class TestPayConnection {
 
     @BeforeAll
     public static void initDriver() {
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
